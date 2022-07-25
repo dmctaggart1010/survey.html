@@ -1,0 +1,64 @@
+div.main-body {
+    display: grid;
+    grid-template-columns: minmax(320px, auto)1fr;
+    grid-template-areas: navbar maincontent;
+    grid-gap: 30px;
+    background-color: saddlebrown;
+    color: silver;
+  }
+  nav#navbar {
+    grid-area: navbar;
+    position: fixed;
+  }
+  nav#navbar a  {
+    display: block;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+  }
+  nav#navbar a:hover {
+  color: darkorange;
+  
+  }
+  main#main-doc {
+    grid-area: mainContent;
+    line-height: 20px;
+    font-size: 20px;
+  
+  }
+  header {
+    font-size: 1.5 em;
+    font-weight: bold;
+    color: darkorange;
+  }
+  section {
+    padding: 30px;
+  }
+  code {
+    background-color: #ccc;
+    color: black;
+    display: block;
+    width: 600px;
+    padding: 15px;
+    font-size: 15px;
+  }
+  ol li {
+    background-color: #ccc;
+    color: black;
+    display: block;
+    width: 500px;
+    padding: 20px;
+  
+  }
+  @media screen and (max-width: 750px) {
+    div.main-body {
+      grid-template-columns: 1fr;
+      grid-template-areas: "navbar" "main-content";
+    }
+  nav#navbar {
+    position: inherit;
+  }
+  }
+  

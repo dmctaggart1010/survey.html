@@ -1,0 +1,21 @@
+body {
+    background-color: aqua;
+  }
+  h1 {
+    color: red;
+    text-align: center;
+  }
+  .card {
+    display: flex;
+  }
+  #nav-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  @media (max-width: 200px) {
+    #nav-bar a:hover {
+  color: yellow;
+    }
+  
+  }

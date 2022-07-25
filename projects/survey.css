@@ -1,0 +1,15 @@
+body {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+  p {
+    color: white;
+  }
+  .silver-background {
+    background-color: silver;
+  }
+  #survey-form {
+    background-image: linear-gradient(to right, aqua, teal, aqua);
+  }

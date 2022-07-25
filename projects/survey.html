@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lan="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Coding Survey</title>
+  </head>
+  <body>
+    <h1 id="title">Coding Survey</h1>
+    <p id="description" class="silver-background" style=color:navy>We are holding a survey on Computer Coding to determine what languages are most recognized on web browsers.</p>
+    <hr>
+    <form id="survey-form">
+      <p>What is your name?</p>
+      <label id="name-label">Name
+        <input id="name" type="text" required placeholder="First and Last Name">
+        </label>
+        <p>How may we contact you?</p>
+        <label id="email-label">
+          <input id="email" type="email" required placeholder="Email">
+          <input id="number2" required type="number" placeholder="Phone Number" pattern="\d{3}-\d{3}-\d{4}">
+          </label>
+          <p>How old are you? (Must be at least 18)</p>
+          <label id="number-label">Number
+         <input id="number" type="number" min="10" max="10" placeholder="age">
+            </label>
+            <p>What language do you prefer to use?</p>
+            <select id="dropdown">
+              <option value="HTML">HTML</option>
+              <option value="Javascript">Javascript</option>
+              <option value="Python">Python</option>
+              <option value="React">React</option>
+              <option value="Java">Java</option>
+              <option value="CSS">CSS</option>
+              <option value="C++">C++</option>
+              <option value="Ruby">Ruby</option>
+              </select>
+              <p>What is your computer's web browser?</p>
+              <label>
+              
+                <input id="web-browser" type="radio" name="browser" value="browser" checked>Google Chrome
+                <input id="web-browser" type="radio" value="browser" name="browser">Safari
+             
+               </label>
+               <p>Name all languages you have experience in.</p>
+               
+               <label for="HTML">
+                 <input id="HTML" type="checkbox" value="language">HTML
+                 </label>
+                 <label for="Javascript">
+                 <input id="Javascript" type="checkbox" value="language">Javascript
+                 </label>
+                   
+<label for="React">
+                 <input id="React" type="checkbox" value="language">React
+                 </label>
+                 <label for="Java">
+                 <input id="Java" type="checkbox" value="language">Java
+                 </label>
+                 <label for="CSS">
+                 <input id="CSS" type="checkbox" value="language">CSS
+                 </label>
+                 <label for="C++">
+                 <input id="C++" type="checkbox" value="language">C++
+                 </label>
+                 <label for="Ruby">
+                 <input id="Ruby" type="checkbox" value="language">Ruby
+                 </label><br>
+                 <p>Additional Comments</p>
+                 <textarea type="text" placeholder="Additional Comments"></textarea><br>
+                 <button id="submit" type="submit">Submit</button>
+                 </form>
+                 <hr>
+
+
+  </body>
+  </html>

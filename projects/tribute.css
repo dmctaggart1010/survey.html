@@ -1,0 +1,12 @@
+#img-div {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  #image {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  }
